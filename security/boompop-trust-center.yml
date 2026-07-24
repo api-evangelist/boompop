@@ -1,0 +1,13 @@
+generated: '2026-07-18'
+method: searched
+probe: true
+source: https://boompop.com/data-security
+url: https://boompop.com/data-security
+certifications:
+- SOC 2
+- GDPR
+evidence:
+- source: https://boompop.com/data-security
+  keywords:
+  - soc 2
+  - gdpr

@@ -1,8 +1,18 @@
 aid: boompop
 name: Boompop
-description: Boompop is a company surfaced as a portfolio company of wing-venture-capital and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Boompop is a corporate event management and planning SaaS platform that helps
+  companies organize offsites, conferences, team gatherings, and other business
+  events. The platform pairs AI-powered planning tools that generate briefs,
+  agendas, and logistics with hotel and vendor sourcing (AI-powered RFPs and rate
+  negotiation), guest and RSVP management, itinerary and event websites, budget
+  and expense tracking, and 24/7 AI messaging. Tiers range from a free Starter
+  plan through a per-event Pro plan to Full Service white-glove planning with a
+  dedicated expert. Boompop was named the 7th fastest-growing software company on
+  the 2025 Inc. 5000 list. It is SOC 2 certified and GDPR compliant, and offers
+  passwordless login plus Google and Microsoft single sign-on. Boompop is backed
+  by Wing Venture Capital. Boompop does not currently publish a public API,
+  developer portal, or API documentation.
 url: https://raw.githubusercontent.com/api-evangelist/boompop/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +20,30 @@ x-backed-by:
 - wing-venture-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/69a5c7e6ea7c2b056a4c8bb8/69e7be9327a6aadf2bab58fd_735dba0479354e7677da18525b927ccb_open-graph-event-planning.webp
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Event Management
+- Event Planning
+- Corporate Events
+- Hospitality
+- Travel
+- SaaS
+- Meetings and Events
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +53,24 @@ maintainers:
 common:
 - type: Website
   url: https://boompop.com/
+- type: Blog
+  url: https://boompop.com/blog
+- type: Pricing
+  url: https://boompop.com/pricing
+- type: Login
+  url: https://app.boompop.com/login
+- type: TermsOfService
+  url: https://boompop.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://boompop.com/privacy-policy
+- type: Compliance
+  url: https://boompop.com/data-security
+- type: TrustCenter
+  url: security/boompop-trust-center.yml
+- type: DomainSecurity
+  url: security/boompop-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
